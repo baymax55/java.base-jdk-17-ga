@@ -424,6 +424,7 @@ public interface Map<K, V> {
      * @see Map#entrySet()
      * @since 1.2
      */
+    //为了更方便的输出map键值对
     interface Entry<K, V> {
         /**
          * Returns the key corresponding to this entry.
